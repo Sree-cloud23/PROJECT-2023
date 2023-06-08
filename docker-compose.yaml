@@ -11,6 +11,6 @@ services:
      - mongo
     links:
       - mongo:mongo_db_host
-  mong:
+  mongo:
     container_name: knote-mongo
     image: mongo
